@@ -1,0 +1,86 @@
+.site-row{
+
+position: relative;
+
+//border:solid 2px #aaa;
+
+border-radius: 8px;
+
+//background-color: #ffa;
+
+}
+
+.sites-container{
+
+	border:solid 1px;
+
+}
+
+
+div.site-info{
+	text-align:center;
+	background-color:#ddd;
+
+	border-radius:9px;
+	padding:5px;
+	border:solid 6px #fff;
+	
+}
+
+div.site-info:hover{
+	
+	background-color:#ee6611;
+	
+}
+
+body.home-page{
+	
+	margin-top:10px;
+	
+	
+}
+img.logo{
+	height:80px;
+	width:100%;
+	}
+
+.logo-fab{
+	width:100%;
+	height: 40px;
+
+}
+
+.fab-site-info{
+
+	height:80px;
+	width: 100%;
+
+	text-align:center;
+	background-color:#ddd;
+
+	border-radius:9px;
+	padding:5px;
+	border:solid 6px #fff;
+}
+
+#fab{
+	position: absolute;
+	margin-top: 0px;
+	float:right;
+width: 4px;
+
+	border:0px;
+
+
+}
+
+#fab-details{
+	position: absolute;
+	margin-top: 0px;
+	width: 4px;
+	float:right;
+	border:0px;
+
+
+
+}

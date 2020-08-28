@@ -1,0 +1,120 @@
+<!doctype HTML>
+<html>
+<head>
+
+
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="../bootstrap/css/bootstrap.min.css">
+<script src="../bootstrap/js/jquery.min.js"></script>
+<script src="../bootstrap/js/bootstrap.min.js"></script>
+
+<link rel="stylesheet" type="text/css" href="login.css">
+<title>
+Numero
+</title>
+</head>
+<body bgcolor="#ffffff" onload="login()" id="hell">
+<script>
+
+
+function login(){
+	document.getElementById("login_form").style.visibility="visible";
+	document.getElementById("signup_form").style.visibility="hidden";
+	document.getElementById("login_button").className="col-sm-6 btn";
+	document.getElementById("signup_button").className="col-sm-6 btn-primary";
+}
+function signup(){
+	document.getElementById("signup_form").style.visibility="visible";
+	document.getElementById("login_form").style.visibility="hidden";
+	document.getElementById("signup_button").className="col-sm-6 btn";
+	document.getElementById("login_button").className="col-sm-6 btn-primary";
+}
+
+</script>
+
+<center>
+
+<div class="container">
+  
+ <div class="row">
+	<div id="header" class="col-sm-12"><a href="../index.php">internet </a></div>
+ </div>
+ <hr>
+
+ <div class="row">
+         <input type="button"  value="login"  onclick="login()"id="login_button" class="btn" style="width:50%;">
+	<input type="button" value="signup" onclick="signup()"id="signup_button" class="btn "style="width:50%;"> 
+        
+ </div>
+ 
+ <br>
+ </div>
+ 
+ <div id="signup_form" class="container-fluid " style="border:solid;border-radius:5px; display: block;">
+ 
+ <div class="alert alert-info">
+    <strong>Signup! </strong>Provide follwing details to signup.
+  </div>
+ 
+                          <form action="signup.php" method="post">
+                          
+                          
+                          
+                          
+                         <input type="text" class="form-control" id="fullname" name="name" required placeholder="full name"><br>
+                    
+                        <input type="text" class="form-control" id="emailid" name="email" required placeholder="email id"><br>
+    
+                        
+                        <input type="password" class="form-control" id="password" name="password" required placeholder="password"><br>
+    
+
+                       <input type="submit" class="btn btn-lg btn-success" value="signup" style="align:center">   
+                 
+                 </form>
+                 
+                 
+</div>          
+ 
+<div id="login_form" class="container-fluid" style="border:solid;border-radius:4px;"> 
+ 
+ <div class="alert alert-info">
+    <strong>Login! </strong>Enter your registerd email id and password to login.
+  </div>
+                         
+						  
+						  <form method="post" action="login.php">
+                          
+                          <div class="input-group">
+                              
+                               <span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
+                               <input type="email" class="form-control input" id="userid"  name="email"  placeholder="username"  required>
+                          </div>
+                          
+                          
+                         <span style="color:red;"> <?php
+                                                         echo $not_registered_user_error;
+                                                         ?> 
+                             </span>
+                         <br> 
+                         
+                         
+                        <div class="input-group">
+                              <span class="input-group-addon"><i class="glyphicon glyphicon-lock"></i></span>          
+                         <input Type="password" id="password" class="form-control input" name="password" required placeholder="password">
+                         
+                         </div>
+                         <span style="color:red;"> <?php 
+                                                                 echo $wrong_password_error;
+                                                         ?>
+                         </span><br>
+
+        
+                         <input type="submit" class="btn btn-lg btn-success" value="Login" style="align:center;cursor:pointer;">
+   </form>
+ </div>
+
+</center>
+</body>
+</html>

@@ -1,0 +1,95 @@
+.site-row{
+
+position: relative;
+padding-bottom:3px;
+border-radius: 12px;
+border-bottom: solid 4px #dad8eb;
+margin-bottom:10px;
+
+
+}
+
+.sites-container{
+
+	border:solid 1px;
+
+}
+
+.sitebox{
+	text-align:center;
+	background-color:#eee;
+
+	border-radius:9px;
+
+}
+
+.sitebox:hover{
+	transition: 200ms;
+	background-color:#636175;
+	box-shadow: 3px 3px 3px 2px rgb(136, 126, 126);
+	
+}
+
+body.home-page{
+	
+	margin-top:10px;
+	
+	
+}
+.sitelogo{
+	height:100px;
+	width:100%;
+	}
+
+.logo-fab{
+	width:100%;
+	height: 40px;
+
+}
+
+.fab-site-info{
+
+	height:80px;
+	width: 100%;
+
+	text-align:center;
+	background-color:#ddd;
+
+	border-radius:9px;
+	padding:5px;
+	border:solid 6px #fff;
+}
+
+#fab{
+	position: absolute;
+	margin-top: 0px;
+	float:right;
+width: 4px;
+
+	border:0px;
+
+
+}
+
+#fab-details{
+	position: absolute;
+	margin-top: 0px;
+	width: 4px;
+	float:right;
+	border:0px;
+
+
+
+}
+
+@media screen and (max-width: 830px){
+
+	.sitebox{
+		text-align:center;
+		background-color:#eee;
+		margin-bottom: 6px;
+		border-radius:9px;
+	
+	}
+	
+}

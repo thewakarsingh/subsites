@@ -1,0 +1,9 @@
+#header{color:#dd1111;font-size:35px; text-decoration:blink;}
+
+#login_form{position:absolute;z-index:2;}
+
+#signup_form{position:absolute;z-index:3;}
+
+lable.heading{background-color:#005566;font-size:22px;color:#000000;position:relative;border-radius:20px;}
+
+#footer{position:relative;bottom:1%;}

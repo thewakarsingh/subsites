@@ -1,0 +1,123 @@
+.visitsitebtn{
+
+color: blue;
+background-color: #fff;
+}
+
+.visitsitebtn:hover{
+
+color: white;
+background-color: blue;
+//transition-duration: 0.5s;
+
+}
+
+
+#comment-system{
+	  width:100%;
+	  border-radius: 4px;
+	  margin:4px;
+}
+
+.star{
+	color:#441;
+	font-size: 25px;
+}
+
+.star:hover{
+
+	color:#ff1;
+
+}
+
+
+
+.user_name{
+
+	font-size: 18px;
+
+	color:#221199;
+
+	padding: 5px;
+
+
+	background-border-radius:5px;
+
+	margin-left: 4%;
+
+}
+#comment_box{	
+	height:35px;
+	width: 75%;
+	font-size: 17px;
+	margin: 10px;
+	  border:0px;
+	  border-bottom: solid 2px #555;
+
+}
+
+.btn-post-cmnt{
+margin-top: -10px;
+}
+
+.comment{
+
+text-align: justify;
+font-size: 20px;
+
+margin-left: 10%;
+font-size: 14px;
+width:60%;
+
+}
+
+.reply-box{
+
+
+	display: none;
+}
+
+div.cds{
+
+
+
+	border: solid 2px #777;
+
+	width: 80%;
+
+	margin-left: 40px;
+
+	border-radius: 12px;
+
+}
+
+.reply-text-box{
+
+
+
+	height: 25px;
+		margin-left:12%;
+	width: 60%;
+	 border:0px; 
+	 border-bottom: solid 2px;
+	}
+
+
+.inner-addon {
+  position: relative;
+}
+
+/* style glyph */
+.inner-addon .glyphicon {
+  position: absolute;
+  padding: 10px;
+  pointer-events: none;
+}
+
+/* align glyph */
+.left-addon .glyphicon  { left:  0px;}
+.right-addon .glyphicon { right: 0px;}
+
+/* add padding  */
+.left-addon input  { padding-left:  30px; }
+.right-addon input { padding-right: 30px; }

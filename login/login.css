@@ -1,0 +1,75 @@
+
+.loginpopup{
+	transition: 2000ms;
+	width:100%;
+	border:solid 1px;
+	border-color:#999999;
+	height:100% !important;
+	top: 0px;
+
+}
+
+#header{color:#dd1111;
+	font-size:35px;
+ text-decoration:blink;
+}
+
+#login_form{position:absolute;z-index:3;}
+
+#signup_form{position:absolute;z-index:3;}
+
+lable.heading{background-color:#005566;
+	font-size:22px;
+	color:#000000;
+	position:relative;
+	border-radius:20px;
+}
+
+#footer{position:relative;bottom:1%;}
+
+.panel-heading{
+	align-content: center;
+	 background-color:orange;
+	 border-radius:0px; 
+	 color:white;
+         width:100%;
+	 font-size:20px;
+
+}
+.close-button{
+margin-top:-10px;
+	border:0px;
+	cursor:pointer;
+	font-size:30px;
+	float: right;
+	background-color: orange;
+}
+span.iconn{background-color: white;
+	border-right-color: white;
+}
+
+.textfield:focus{
+
+border-color: #999;
+
+}
+
+
+.inner-addon {
+  position: relative;
+}
+
+/* style glyph */
+.inner-addon .glyphicon {
+  position: absolute;
+  padding: 10px;
+  pointer-events: none;
+}
+
+/* align glyph */
+.left-addon .glyphicon  { left:  0px;}
+.right-addon .glyphicon { right: 0px;}
+
+/* add padding  */
+.left-addon input  { padding-left:  30px; }
+.right-addon input { padding-right: 30px; }

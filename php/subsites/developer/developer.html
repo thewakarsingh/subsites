@@ -1,0 +1,28 @@
+<?php
+
+include "header.php";
+
+?>
+<h2><h2>Provide following information of the site</u></h2>
+
+<form  action="developer.php" method="POST" enctype="multipart/form-data">
+<table style="font-size:30px;width:60%;height:500px;background-color:#555555; border:3px;padding:3px;cell-spacing:3px;cell-padding:4px;" cellspacing="6" border="4">
+<tr>
+<td>name of the website:<td><input type="text" name="name"></td></tr>
+<tr><td>Domain name of the website:</td><td><input type="text" name="domain_name"></td></tr>
+<tr><td>rating:</td><td><input type="text" name="rating"></td></tr>
+<tr><td>category:</td><td><input type="text" name="category"></td></tr>
+<tr><td>release date:</td><td><input type="date" name="release"></td></tr>
+<tr><td>popularity:</td><td><input type="text" name="popularity"></td></tr>
+<tr><td>description:</td><td><input type="text-area" name="description"></td></tr>
+<tr><td>Enter link for logo:</td><td><input type="text" name="logo"></td></tr>
+<tr><td colspan=2><input type="submit" value="submit"></td></tr>
+</table>
+</form>
+<div><?php
+echo $msg;
+
+?></div>
+
+</body>
+</html>

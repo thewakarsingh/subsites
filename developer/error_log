@@ -1,0 +1,3 @@
+[23-Sep-2019 04:48:30 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/qds122etndo5/public_html/subsites.geekvivek.com/developer/edit.php:22) in /home/qds122etndo5/public_html/subsites.geekvivek.com/developer/edit.php on line 27
+[23-Sep-2019 04:50:30 UTC] PHP Notice:  Undefined index: name in /home/qds122etndo5/public_html/subsites.geekvivek.com/developer/sitesearch.php on line 45
+[19-Nov-2019 16:33:30 UTC] PHP Warning:  mysqli_connect(): (42000/1226): User 'diwakar' has exceeded the 'max_user_connections' resource (current value: 30) in /home/qds122etndo5/public_html/subsites.geekvivek.com/php/server_login.php on line 12
